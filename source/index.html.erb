@@ -9,40 +9,22 @@ title: Le Wagon - Middleman
     <a class="btn btn-primary btn-lg">Start now</a>
   </div>
 </div>
+  <h2 class="text-center">Petit test</h2>
 <div class="container">
   <div class="row">
+    <% ["paris","rio","berlin"].each do |citie| %>
     <div class="col-xs-12 col-sm-4">
-      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('background.jpg');">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%=citie%>');">
         <div class="card-category">Popular</div>
         <div class="card-description">
-          <h2>TEST</h2>
+          <h2><%= citie.capitalize %></h2>
           <p>Very cool stuff, useful and smart</p>
         </div>
         <img class="card-user" src="user.jpg">
         <a class="card-link" href="#" ></a>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-4">
-      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('background.jpg');">
-        <div class="card-category">Popular</div>
-        <div class="card-description">
-          <h2>TEST2</h2>
-          <p>Very cool stuff, useful and smart</p>
-        </div>
-        <img class="card-user" src="user.jpg">
-        <a class="card-link" href="#" ></a>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('background.jpg');">
-        <div class="card-category">Popular</div>
-        <div class="card-description">
-          <h2>TEST3</h2>
-          <p>Very cool stuff, useful and smart</p>
-        </div>
-        <img class="card-user" src="user.jpg">
-        <a class="card-link" href="#" ></a>
-      </div>
-    </div>
+    <% end %>
+
   </div>
 </div>

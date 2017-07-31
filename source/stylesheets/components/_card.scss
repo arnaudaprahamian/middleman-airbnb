@@ -6,6 +6,12 @@
   color: white;
   position: relative;
 }
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
 .card-user {
   position: absolute;
   right: 10px;
@@ -45,4 +51,8 @@
 }
 .card-link:hover {
   opacity: 0.1;
+}
+
+* {
+  box-sizing: border-box;
 }
