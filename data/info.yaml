@@ -1,0 +1,53 @@
+# data/flats-info.yml
+ssaunier:
+  about: "Test de la descritpion dans le yml"
+  accommodates: 2
+  bathrooms: 1
+  bed_type: "Real Bed"
+  bedrooms: 1
+  beds: 1
+  property_type: "Appartement"
+  room_type: "Entire Home/apt"
+  kitchen: true
+  wifi: true
+  tv: true
+  welcome: true
+papillard:
+  about: "Test de la descritpion dans le yml"
+  accommodates: 4
+  bathrooms: 2
+  bed_type: "Real Bed"
+  bedrooms: 3
+  beds: 3
+  property_type: "Appartement"
+  room_type: "Entire Home/apt"
+  kitchen: true
+  wifi: true
+  tv: true
+  welcome: false
+monsieurpaillard:
+  about: "Test de la descritpion dans le yml"
+  accommodates: 2
+  bathrooms: 1
+  bed_type: "Real Bed"
+  bedrooms: 1
+  beds: 1
+  property_type: "Appartement"
+  room_type: "Rom"
+  kitchen: false
+  wifi: true
+  tv: false
+  welcome: false
+Thezookeeperrom:
+  about: "Test de la descritpion dans le yml"
+  accommodates: 2
+  bathrooms: 1
+  bed_type: "Real Bed"
+  bedrooms: 1
+  beds: 1
+  property_type: "Appartement"
+  room_type: "Entire Home/apt"
+  kitchen: true
+  wifi: true
+  tv: true
+  welcome: true
